@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Chain_of_Responsibility_First_Look.Business.Handlers.Handler&lt;T&gt;">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Handlers\Handler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Chain_of_Responsibility_First_Look.Business.Handlers.UserValidation.AgeValidationHandler">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Handlers\UserValidation\AgeValidationHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chain_of_Responsibility_First_Look.Business.Handlers.UserValidation.CitizenshipRegionValidationHandler">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Handlers\UserValidation\CitizenshipRegionValidationHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chain_of_Responsibility_First_Look.Business.Handlers.UserValidation.NameValidationHandler">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Handlers\UserValidation\NameValidationHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chain_of_Responsibility_First_Look.Business.Handlers.UserValidation.SocialSecurityNumberValidatorHandler">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Handlers\UserValidation\SocialSecurityNumberValidatorHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chain_of_Responsibility_First_Look.Business.Models.User">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAEAAAAQAAAAQAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Chain_of_Responsibility_First_Look.Business.Handlers.IHandler&lt;T&gt;" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Handlers\Handler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
